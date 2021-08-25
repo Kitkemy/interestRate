@@ -1,4 +1,9 @@
-credit = 12000
+print("Podaj kwotę kredytu")
+credit = int(input())
+print("Podaj ratę")
+principal = int(input())
+print("Podaj oprocentowanie")
+interest = int(input())
 
 Styczen1 = 1.592824484
 Luty1 = -0.453509101
@@ -24,3 +29,5 @@ Wrzesień2 = -0.07742069
 Październik2 = 1.165733399
 Listopad2 = -0.404186718
 Grudzień2 = 1.499708521
+
+print(credit * interest)
